@@ -33,8 +33,11 @@ hyprpackages=(
     "hyprpaper"
     "hyprlock"
     "hypridle"
+    "hyprcursor"
+    "bibata-cursor-git"
     "ttf-font-awesome"
     "vim"
+    "neohhvim"
     "fastfetch"
     "ttf-fira-sans" 
     "ttf-fira-code" 
@@ -42,6 +45,8 @@ hyprpackages=(
     "ttf-jetbrains-mono-nerd"
     "jq"
     "brightnessctl"
+    "btop"
+    "zoxide"
 )
 
 otherpackages=(
@@ -49,6 +54,7 @@ otherpackages=(
     "1password"
     "stow"
     "discord"
+    "oh-my-posh-bin"
 )
 
 # ----------------------------------------------------------
