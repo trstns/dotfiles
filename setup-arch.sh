@@ -47,6 +47,10 @@ hyprpackages=(
     "brightnessctl"
     "btop"
     "zoxide"
+    "man-db"
+    "swww"
+    "matugen"
+    "vy"
 )
 
 otherpackages=(
@@ -101,10 +105,12 @@ _installYay() {
     _installPackages "base-devel"
     SCRIPT=$(realpath "$0")
     temp_path=$(dirname "$SCRIPT")
-    git clone https://aur.archlinux.org/yay.git $download_folder/yay
-    cd $download_folder/yay
+    temp_yay_dir=~/.yay
+    git clone https://aur.archlinux.org/yay.git $temp_yay_dir
+    cd $temp_yay_dir
     makepkg -si
     cd $temp_path
+    rm -rf $temp_yay_dir
     echo ":: yay has been installed successfully."
 }
 
