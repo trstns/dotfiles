@@ -6,7 +6,7 @@ chsh -s /bin/zsh $USER
 
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
-sudo systemctl enable vy
+sudo systemctl enable ly
 
 # Allow the 1Password add-on in Zen browser to communicate with 1Password
 sudo mkdir /etc/1password

@@ -50,7 +50,7 @@ hyprpackages=(
     "man-db"
     "swww"
     "matugen"
-    "vy"
+    "ly"
 )
 
 otherpackages=(
