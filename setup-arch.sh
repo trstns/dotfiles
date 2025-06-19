@@ -37,7 +37,7 @@ hyprpackages=(
     "bibata-cursor-git"
     "ttf-font-awesome"
     "vim"
-    "neohhvim"
+    "neovim"
     "fastfetch"
     "ttf-fira-sans" 
     "ttf-fira-code" 
@@ -49,8 +49,9 @@ hyprpackages=(
     "zoxide"
     "man-db"
     "swww"
-    "matugen"
+    "matugen-bin"
     "ly"
+    "ghostty"
 )
 
 otherpackages=(
@@ -59,6 +60,7 @@ otherpackages=(
     "stow"
     "discord"
     "oh-my-posh-bin"
+    "code"
 )
 
 # ----------------------------------------------------------
